@@ -178,6 +178,7 @@
 	@black: #000000;
 	@white: #FFFFFF;
 	@copyColor: #666666;
+	@brandColor: #e92c0c;
 
 
 /*	4.0 ----------------------------------------------
@@ -320,7 +321,71 @@
 		FONTFACE
 		-------------------------------------------------- */
 		
+		@font-face {
+			font-family: 'Quicksand-Medium';
+			src: url('../_fonts/Quicksand-Medium.eot');
+			src: url('../_fonts/Quicksand-Medium.eot?#iefix') format('embedded-opentype'),
+				url('../_fonts/Quicksand-Medium.woff') format('woff'),
+				url('../_fonts/Quicksand-Medium.ttf') format('truetype'),
+				url('../_fonts/Quicksand-Medium.svg#Quicksand-Medium') format('svg');
+			font-weight: 500;
+			font-style: normal;
+		}
 
+		@font-face {
+			font-family: 'Quicksand-Bold';
+			src: url('../_fonts/Quicksand-Bold.eot');
+			src: url('../_fonts/Quicksand-Bold.eot?#iefix') format('embedded-opentype'),
+				url('../_fonts/Quicksand-Bold.woff') format('woff'),
+				url('../_fonts/Quicksand-Bold.ttf') format('truetype'),
+				url('../_fonts/Quicksand-Bold.svg#Quicksand-Bold') format('svg');
+			font-weight: bold;
+			font-style: normal;
+		}
+
+		@font-face {
+			font-family: 'Quicksand-Light';
+			src: url('../_fonts/Quicksand-Light.eot');
+			src: url('../_fonts/Quicksand-Light.eot?#iefix') format('embedded-opentype'),
+				url('../_fonts/Quicksand-Light.woff') format('woff'),
+				url('../_fonts/Quicksand-Light.ttf') format('truetype'),
+				url('../_fonts/Quicksand-Light.svg#Quicksand-Light') format('svg');
+			font-weight: 300;
+			font-style: normal;
+		}
+
+		@font-face {
+			font-family: 'Quicksand';
+			src: url('../_fonts/Quicksand-Regular.eot');
+			src: url('../_fonts/Quicksand-Regular.eot?#iefix') format('embedded-opentype'),
+				url('../_fonts/Quicksand-Regular.woff') format('woff'),
+				url('../_fonts/Quicksand-Regular.ttf') format('truetype'),
+				url('../_fonts/Quicksand-Regular.svg#Quicksand-Regular') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		@font-face {
+			font-family: 'Droid';
+			src: url('../_fonts/DroidSerif.eot');
+			src: url('../_fonts/DroidSerif.eot?#iefix') format('embedded-opentype'),
+				url('../_fonts/DroidSerif.woff') format('woff'),
+				url('../_fonts/DroidSerif.ttf') format('truetype'),
+				url('../_fonts/DroidSerif.svg#DroidSerif') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		@font-face {
+			font-family: 'Droid-Bold';
+			src: url('../_fonts/DroidSerif-Bold.eot');
+			src: url('../_fonts/DroidSerif-Bold.eot?#iefix') format('embedded-opentype'),
+				url('../_fonts/DroidSerif-Bold.woff') format('woff'),
+				url('../_fonts/DroidSerif-Bold.ttf') format('truetype'),
+				url('../_fonts/DroidSerif-Bold.svg#DroidSerif-Bold') format('svg');
+			font-weight: bold;
+			font-style: normal;
+		}
 
 	/*	7.2 ----------------------------------------------
 		TYPOGRAPHY
@@ -349,7 +414,7 @@
 		textarea, 
 		button {
 			font-size: 16px;
-			font-family: 'karbon', Verdana, Arial, sans-serif;
+			font-family: 'Quicksand', Verdana, Arial, sans-serif;
 			font-weight:400;
 			line-height: 20px;
 		}
@@ -359,7 +424,7 @@
 		h1, h2, h3, h4, h5, h6 {
 			font-weight: normal;
 			line-height: 1.2;
-			font-family: 'karbon', Arial, verdana;
+			font-family: 'Droid', Arial, verdana;
 			color: @copyColor;
 		}
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { 
@@ -411,7 +476,7 @@
 			background: #e0e0e0;
 		}
 		.wrapper {
-			max-width: 1600px;
+			max-width: 1280px;
 			margin: 0 auto;
 			background: @white;
 			overflow: hidden;
@@ -431,15 +496,127 @@
 			overflow: hidden;
 		}
 		.logo {
-			margin-top: 3px;
+			text-align: center;
+			padding: 40px 0;
+			border-bottom: 1px solid #efefef;
+			position: relative;
 
 			.st3 {
 				fill: @black;
 			}
-
+			a {
+				display: inline-block;
+			}
 			#logo-fill {
 				width: 200px;
 				height: 14px;
+			}
+			.click-to-mail {
+				position: absolute;
+				right: 40px;
+				top: 36px;
+
+				a {
+					color: @brandColor;
+					font-family: 'Droid-Bold';
+					font-style: italic;
+					font-size: 16px;
+					line-height: 18px;
+					padding-left: 30px;
+
+					&:before {
+						content: "\6a";
+						font-family: 'mourant';
+						position: absolute;
+						left: 0;
+						top: 2px;
+					}
+				}
+			}
+		}
+		header {
+			&.row {
+				margin-bottom: 0;
+			}
+			.main-nav {
+				text-align: center;
+
+				ul {
+					position: relative;
+					display: inline-block;
+
+					li {
+						float: left;
+						font-size: 18px;
+
+						a {
+							padding: 30px 24px;
+							display: inline-block;
+							border-top: 3px solid;
+							border-color: @white;
+							color: #111111;
+							font-family: 'Quicksand-Medium';
+
+							&:hover {
+								border-color: @brandColor;
+							}
+						}
+						&.selected {
+							a {
+								border-color: @brandColor; 
+							}
+						}
+					}
+				}
+			}
+		}
+		.hero-slider {
+			padding: 0;
+
+			.hero-slider-item {
+				position: relative;
+
+				.slider-item-text {
+					position: absolute;
+					background: rgba(0,0,0,0.15);
+					width: 100%;
+					height: 100%;
+					top: 0;
+					left: 0;
+					bottom: 0;
+					right: 0;
+
+					.text-container {
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -50%);
+						padding: 20px;
+						position: absolute;
+						max-width: 830px;
+						text-align: center;
+
+						h1, h2 {
+							color: @white;
+							font-size: 48px;
+							line-height: 52px;
+							text-align: center;
+							margin-bottom: 20px;
+
+							strong {
+								font-family: 'Droid-Bold';
+							}
+						}
+						p a {
+							padding: 15px 20px;
+							color: @white;
+							background: @brandColor;
+							border-radius: 5px;
+							line-height: 1;
+							font-family: 'Quicksand-Medium';
+							display: inline-block;
+						}
+					}
+				}
 			}
 		}
 

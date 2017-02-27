@@ -124,11 +124,14 @@
 							</g>
 						</svg>
 					</a>
+					<div class="vx_text click-to-mail">
+						<p><a href="mailto:info@driving-law.co.uk">info@driving-law.co.uk</a></p>
+					</div>
 				</div>
-				<div id="men_01011" class="vx_menu vx_include_header col-sm-12 header-items">
-					<nav class="main-nav">
+				<div id="men_01011" class="vx_menu vx_include_header col-sm-12 main-nav">
+					<nav>
 						<ul>
-							<li><a href="#">Home</a></li>
+							<li class="selected"><a href="#">Home</a></li>
 							<li><a href="#">About us</a></li>
 							<li><a href="#">Terms</a></li>
 							<li><a href="#">Offenses</a></li>
@@ -144,6 +147,84 @@
 				</ul>
 			</div>
 		</header>
+		<section class="row">
+			<div class="row-content">
+				<div class="hero-slider">
+					<div id="col_01" class="vx_drag vx_blocks_file_blocks-hero-slider hero-slider">
+						<div class="vx_block hero-slider-item">
+							<div class="vx_image">
+								<img src="../_images/hero-03.jpg" alt="Carousel item" />
+							</div>
+							<div class="slider-item-text">
+								<div class="vx_text text-container">
+									<h1>Helping drivers with all aspects of <strong>motoring legal advice</strong></h1>
+									<p><a href="/">Read more</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="vx_block hero-slider-item">
+							<div class="vx_image">
+								<img src="../_images/hero-01.jpg" alt="Carousel item" />
+							</div>
+							<div class="slider-item-text">
+								<div class="vx_text text-container">
+									<h2>Legal support for drivers from <strong>less than £1 a week</strong></h2>
+									<p><a href="/">Read more</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="vx_block hero-slider-item">
+							<div class="vx_image">
+								<img src="../_images/hero-02.jpg" alt="Carousel item" />
+							</div>
+							<div class="slider-item-text">
+								<div class="vx_text text-container">
+									<h2>Helping drivers with all aspects of <strong>motoring legal advice</strong></h2>
+									<p><a href="/">Read more</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="row promo">
+			<div class="row-content">
+				<div class="col-sm-4">
+					<div class="promo-item">
+						<div class="vx_image promo-image">
+							<img src="../_images/thumb-01.jpg" alt="Promo Thumb" />
+						</div>
+						<div class="vx_text promo-text">
+							<h3><a href="#">Email Query</a></h3>
+							<p>Expert legal advice by email for only £20</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="promo-item">
+						<div class="vx_image promo-image">
+							<img src="../_images/thumb-03.jpg" alt="Promo Thumb" />
+						</div>
+						<div class="vx_text promo-text">
+							<h3><a href="#">Email Query</a></h3>
+							<p>Expert legal advice by email for only £20</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="promo-item">
+						<div class="vx_image promo-image">
+							<img src="../_images/thumb-02.jpg" alt="Promo Thumb" />
+						</div>
+						<div class="vx_text promo-text">
+							<h3><a href="#">Email Query</a></h3>
+							<p>Expert legal advice by email for only £20</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</div>
 	<footer class="row">
 		<div class="row-content">
@@ -260,5 +341,11 @@
 			</div>
 		</div>
 	</footer>
+	<script>
+		$('.hero-slider').bxSlider({
+			mode: 'fade',
+			captions: true
+		});
+	</script>
 </body>
 </html>

@@ -44,7 +44,7 @@
 .bx-wrapper .bx-controls-auto {
 	position: absolute;
 	bottom: 35px;
-	width: 100%;
+	left: 35px;
 }
 
 /* LOADER */
