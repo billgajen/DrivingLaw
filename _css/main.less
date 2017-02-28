@@ -179,6 +179,8 @@
 	@white: #FFFFFF;
 	@copyColor: #666666;
 	@brandColor: #e92c0c;
+	@brandGreen: #1fc9be;
+	@footerGrey: #202f39;
 
 
 /*	4.0 ----------------------------------------------
@@ -476,13 +478,13 @@
 			background: #e0e0e0;
 		}
 		.wrapper {
-			max-width: 1280px;
+			max-width: 1600px;
 			margin: 0 auto;
 			background: @white;
 			overflow: hidden;
 		}
 		.row {
-			margin: 0 auto 20px;
+			margin: 0 auto 40px;
 			overflow: hidden;
 
 			.row  {
@@ -492,8 +494,20 @@
 		}
 		.row-content {
 			margin: 0 auto;
-			max-width: 1280px;
+			max-width: 1600px;
 			overflow: hidden;
+		}
+		h2 {
+			font-size: 46px;
+			line-height: 52px;
+			color: @brandColor;
+			margin-bottom: 20px;
+		}
+		h3 {
+			font-size: 36px;
+			line-height: 42px;
+			color: @black;
+			margin-bottom: 10px;
 		}
 		.logo {
 			text-align: center;
@@ -538,6 +552,101 @@
 			&.row {
 				margin-bottom: 0;
 			}
+			.top-header {
+				background: @footerGrey;
+				padding: 15px 0;
+
+				.quick-consulation {
+					p {
+						font-family: 'Droid';
+						font-size: 18px;
+						line-height: 22px;
+						color: @white;
+						padding-bottom: 0;
+						padding-top: 5px;
+
+						a {
+							color: @white;
+							font-style: italic;
+							position: relative;
+							padding-right: 30px;
+
+							&:after {
+								position: absolute;
+								content: "\71";
+								right: 0;
+								top: 1px;
+								font-family: 'mourant';
+							}
+						}
+						span {
+							color: @white;
+							padding: 10px 10px 6px 10px;
+							border-radius: 50%;
+							background: @brandColor;
+							font-size: 16px;
+							position: relative;
+							top: 1px;
+							line-height: 1;
+							margin-right: 15px;
+						}
+					}
+				}
+				.search-social {
+					overflow: hidden;
+
+					.site-search, social{
+						float: right;
+						margin-left: 20px;
+					}
+					.site-search {
+						position: relative;
+
+						.form-group {
+							margin-bottom: 0;
+						}
+						input {
+							width: 200px;
+							border: none;
+							background: @footerGrey;
+							color: @white;
+							font-family: 'Droid';
+							border-radius: 0; 
+							font-size: 18px;
+							padding-right: 30px;
+							transition: width 0.3s ease-in;
+
+							&:focus {
+								width: 320px;
+							}
+						}
+						button {
+							border: none;
+							background: transparent;
+							color: @brandColor;
+							font-size: 22px;
+							line-height: 1;
+							position: absolute;
+							right: 0;
+							top: 5px;
+						}
+					}
+					.social {
+						li {
+							float: right;
+							margin-top: 2px; 
+						}
+						.icon {
+							font-size: 28px;
+							margin: 0 10px;
+
+							&:hover {
+								color: @white;
+							}
+						}
+					}
+				}
+			}
 			.main-nav {
 				text-align: center;
 
@@ -568,6 +677,60 @@
 						}
 					}
 				}
+			}
+		}
+		footer {
+			color: @white;
+
+			p, ul li, a, a:visited {
+				font-size: 14px;
+				color: @white;
+				margin-bottom: 5px;
+			}
+			a, a:visited {
+				color: @brandGreen;
+
+				&:hover {
+					color: @white;
+				}
+			}
+			ul {
+				margin-bottom: 20px;
+			}
+			h5 {
+				color: @brandColor;
+				margin-bottom: 15px;
+				font-size: 16px;
+			}
+			.row-content {
+				background: #202f39;
+				padding: 40px;
+			}
+			.logo {
+				padding: 0 15px;
+				text-align: left;
+				border: none;
+
+				.st3 {
+					fill: @white;
+				}
+				a {
+					margin-bottom: 20px;
+				}
+			}
+			&.row {
+				margin-bottom: 0;
+			}
+		}
+		.home {
+			h2, h3 {
+				text-align: center;
+			}
+			h2 {
+				margin-bottom: 60px;
+			}
+			h3 {
+				margin-top: 40px;
 			}
 		}
 		.hero-slider {
@@ -617,6 +780,45 @@
 						}
 					}
 				}
+			}
+		}
+		.promo {
+			.promo-item {
+				position: relative;
+				margin-bottom: 20px;
+
+				.promo-text {
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					right: 0;
+					width: 100%;
+					padding: 20px;
+
+					background: rgba(0,0,0,0.6);
+
+					h3 {
+						margin: 0 0 5px;
+						color: @brandColor;
+						font-size: 20px;
+						line-height: 20px;
+						text-align: left;
+
+						a {
+							color: @brandColor;
+						}
+					}
+					p {
+						padding: 0;
+						margin: 0;
+						color: @white;
+					}
+				}
+			}
+		}
+		.dl-intro {
+			img {
+				margin-bottom: 20px;
 			}
 		}
 

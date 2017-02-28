@@ -32,36 +32,11 @@ $(function(){
 				$('.isDesktop .icon-burger').toggleClass('clicked');
 			});
 
-			// Search toggle
-			$('.search-button').on('click', function() {
-				$('html, body').scrollTop(0);
-				$('.search-modal').show();
-			});
-			$('.search-popup .close-btn').on('click', function() {
-				$('.search-modal').hide();
-			});
-
 			// Article share
 			$('.share a').not('.share .email a, .share .print a').click(function(){
 				window.open(this.href, 'Share', "width=600, height=600");
 				return false;
 			});
-
-			// Share links popup
-			$('.share-icons a.icon').not('.share-icons .jiathis_button_weixin.icon-wechat, .email a.icon').click(function(){
-				window.open(this.href, 'Share', "width=600, height=600");
-				return false;
-			});
-			// News & Views H3
-			// $('.news-views .featured-item h3').each(function(){
-			// 	var title = $(this).text(),
-			// 		LowerTitle = title.toLowerCase();
-
-			// 		if(LowerTitle != 'news') {
-			// 			LowerTitle = 'insight';
-			// 		}
-			// 	$(this).parents('.featured-item').addClass(LowerTitle);
-			// });
 
 			$('.share a').each(function() {
 				var _href = $(this).attr('href'),
@@ -90,11 +65,6 @@ $(function(){
 				} else if (address[0] === '') {
 					$(this).parents().filter('li.first').addClass('selected');
 				}
-			});
-
-			// Hide image tooltip
-			$('img').each(function() {
-				$(this).removeAttr('title');
 			});
 
 			// Sticky Header 
@@ -139,32 +109,6 @@ $(function(){
 				} else {
 					return true;
 				}
-			});
-
-			//
-			$('.news-views .featured-item h3').each(function(){
-				var newsTypeName = $(this).text();
-
-				if(newsTypeName === 'News') {
-					$(this).parents('.featured-item').addClass('news');
-				} else {
-					$(this).parents('.featured-item').removeClass('news').addClass('insight');
-				}
-			});
-
-			// Main Nav show arrow for second level if there's a child
-			var menuFirstLevel = $('.isMobile .main-nav ul li'),
-				plusElem = $('<span />');
-
-			menuFirstLevel.each(function() {
-				if($(this).find('ul').length !== 0) {
-					$(this).addClass('parent');
-				}
-			});
-			$('.isMobile .main-nav ul li.parent').append(plusElem);
-			$('.isMobile .main-nav ul li.parent span').on('click', function() {
-				$(this).siblings('ul').slideToggle();
-				$(this).parent().toggleClass('selected');
 			});
 
 		};
