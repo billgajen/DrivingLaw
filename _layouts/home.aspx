@@ -52,47 +52,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="row promo">
-			<div class="row-content">
-				<div class="vx_text col-sm-12">
-					<h3>Our quick</h3>
-					<h2>Legal support</h2>
-				</div>
-				<div class="col-md-4">
-					<div class="promo-item">
-						<div class="vx_image promo-image">
-							<a href="#"><img src="../_images/thumb-03.jpg" alt="Promo Thumb" /></a>
-						</div>
-						<div class="vx_text promo-text">
-							<h3><a href="#">Email Query</a></h3>
-							<p>Expert legal advice by email for only £20</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="promo-item">
-						<div class="vx_image promo-image">
-							<a href="#"><img src="../_images/thumb-04.jpg" alt="Promo Thumb" /></a>
-						</div>
-						<div class="vx_text promo-text">
-							<h3><a href="#">Telephone Advice</a></h3>
-							<p>30mins Telephone Advice for just £49</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="promo-item">
-						<div class="vx_image promo-image">
-							<a href="#"><img src="../_images/thumb-02.jpg" alt="Promo Thumb" /></a>
-						</div>
-						<div class="vx_text promo-text">
-							<h3><a href="#">Subscription</a></h3>
-							<p>Driving Law Membership - Coming soon</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+		<!--#include file="../_inc/promo.aspx"-->
 		<section class="row dl-intro">
 			<div class="row-content">
 				<div class="vx_text col-sm-12">
@@ -105,7 +65,7 @@
 				<div class="vx_text col-md-6">
 					<p>Drivers are under ever greater pressure from new driving legislation and increased monitoring from speed cameras and CCTV. Even the most careful driver can find themselves facing legal situations, often where the charge is questionable or unfair. Driving Law is an online resource with detailed information for drivers covering all aspects of motoring legal advice. Our free resources can help you find information on most of the common driving offences, including "being in charge of a vehicle with excess alcohol" ( drink driving ); "speeding", "driving whilst disqualified", "seat belt use" and "failing to report an accident".</p>
 					<p>The Driving Law team is comprised of lawyers from a pre-selected panel of regulated UK law firms who have huge experience in helping drivers with motoring led legal services. We have a range of cost effective services if you require more detailed legal advice or representation.</p>
-					<p>For other services, including a telephone legal advice service for only £49, please visit Driving Law Services section.</p>
+					<p>For other services, including a <a href="#">telephone legal advice</a> service for only £49, please visit <a href="#">Driving Law Services</a> section.</p>
 				</div>				
 			</div>
 		</section>
