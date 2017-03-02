@@ -111,6 +111,16 @@ $(function(){
 				}
 			});
 
+			// Accordion toggle
+
+			$('.accordion-item h4').on('click', function() {
+				$(this).toggleClass('on');
+
+				var parent = $(this).parents('.accordion-item');
+				$('.info', parent).slideToggle();
+
+			});
+
 		};
 
 		return {

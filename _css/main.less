@@ -1009,6 +1009,81 @@
 				}
 			}
 		}
+		.accordion-content {
+			margin-top: 40px;
+
+			.accordion-item {
+				margin-bottom: 40px;
+
+				h4 {
+					color: @black;
+					font-size: 20px;
+					line-height: 24px;
+					padding-bottom: 10px;
+					position: relative;
+					cursor: pointer;
+
+					&:after {
+						content: "+";
+						padding: 7px 18px 2px 18px;
+						border-radius: 20px 5px 0px 0px;
+						position: absolute;
+						right: 0;
+						bottom: 0;
+						color: @white;
+						font-size: 30px;
+						line-height: 30px;
+						width: 53px;
+					}
+					&.on {
+						&:after {
+							content: "-";
+						}
+					}
+				}
+				.info {
+					display: none;
+					padding: 50px 40px;
+					color: @white;
+
+					a {
+						color: @white;
+					}
+				}
+			}
+		}
+		.offence {
+			.accordion-content {
+				.accordion-item {
+					h4 {
+						border-bottom: 2px solid rgba(31, 201, 190, 0.65);
+
+						&:after {
+							background: rgba(31, 201, 190, 0.65);
+						}
+					}
+					.info {
+						background: rgba(31, 201, 190, 0.65);
+					}
+				}
+			}
+		}
+		.terms {
+			.accordion-content {
+				.accordion-item {
+					h4 {
+						border-bottom: 2px solid rgba(233, 44, 12, 0.65);
+
+						&:after {
+							background: rgba(233, 44, 12, 0.65);
+						}
+					}
+					.info {
+						background: rgba(233, 44, 12, 0.65);
+					}
+				}
+			}
+		}
 
 	/*	8.2 ----------------------------------------------
 		DEVICE WIDTH FROM 480

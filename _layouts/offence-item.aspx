@@ -10,7 +10,7 @@
 	<!--#include file="../_inc/js.aspx"-->
 	<!--#include file="../_inc/css.aspx"-->
 </head>
-<body class="offence">
+<body class="home offence">
 	<div class="wrapper">
 		<!--#include file="../_inc/header.aspx"-->
 		<section class="row hero">
