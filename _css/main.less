@@ -913,7 +913,7 @@
 			margin-bottom: 0;
 
 			.row-content {
-				max-width: 1180px;
+				max-width: 980px;
 			}
 			.intro {
 				margin-bottom: 20px;
@@ -1084,6 +1084,133 @@
 				}
 			}
 		}
+		.penalty-table {
+			overflow: hidden;
+			clear: both;
+			.table-head {
+				font-family: 'Droid-Bold';
+				font-size: 18px;
+				line-height: 22px;
+				border-bottom: 1px solid #ccc;
+				margin-bottom: 20px;
+				color: @black;
+				overflow: hidden;
+				padding-bottom: 15px;
+			}
+			.table-body {
+				.penalty-item {
+					clear: both;
+					margin-bottom: 5px;
+					border-bottom: 1px solid @brandGreen;
+					overflow: hidden;
+					padding-bottom: 10px;
+					margin-bottom: 10px;
+					min-height: 54px;
+
+					p {
+						margin-bottom: 0;
+						padding-bottom: 0;
+					}
+				}
+			}
+			.offence {
+				text-align: left;
+			}
+			.imprisonment {
+				text-align: center;
+			}
+			.fine {
+				text-align: center;
+				font-family: 'Droid-Bold';
+				color: @brandColor;
+			}
+			.disqualification {
+				text-align: center;
+			}
+			.penalty-points {
+				text-align: center;
+			}
+		}
+		.service-list {
+			margin-top: 50px;
+
+			.service-item {
+				border: 1px solid #e0e0e8;
+				padding: 40px;
+				margin-bottom: 30px;
+
+				h2 {
+					font-size: 24px;
+					line-height: 28px;
+					color: @footerGrey;
+					margin-bottom: 30px;
+					height: 84px;
+					overflow: hidden;
+				}
+				.price {
+					padding: 20px 0;
+					border-top: 1px solid #e0e0e8; 
+					border-bottom: 1px solid #e0e0e8;
+					text-align: center;
+					margin-bottom: 40px;
+
+					h4 {
+						color: @brandColor;
+						font-size: 60px;
+						line-height: 60px;
+						position: relative;
+						padding-left: 30px;
+						display: inline;
+						font-family: 'Droid-Bold';
+
+						&:before {
+							content: "£";
+							font-size: 30px;
+							line-height: 30px;
+							position: absolute;
+							left: 0;
+							top: 10px;
+							color: @footerGrey;
+						}
+					}
+				}
+				.intro {
+					margin-bottom: 30px;
+					p {
+						font-size: 16px;
+						line-height: 22px;
+						font-family: 'Quicksand';
+						text-align: center;
+						padding-bottom: 0;
+						height: 90px;
+						overflow: hidden;
+
+						a {
+							display: block;
+							text-decoration: underline;
+							color: @brandColor;
+						}
+					}
+				}
+				.read-more {
+					text-align: center;
+					p {
+						a {
+							padding: 15px 20px;
+							color: @white;
+							background: @brandColor;
+							border-radius: 5px;
+							line-height: 1;
+							font-family: 'Quicksand-Medium';
+							display: inline-block;
+						}
+					}
+				}
+				&:hover {
+					border-color: @brandColor;
+				}
+			}
+		}
 
 	/*	8.2 ----------------------------------------------
 		DEVICE WIDTH FROM 480
@@ -1170,6 +1297,7 @@
 		
 		@media only screen and (min-width: 1400px) {
 		}
+
 
 
 /*	9.0 ----------------------------------------------
