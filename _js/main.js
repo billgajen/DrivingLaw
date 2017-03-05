@@ -113,11 +113,14 @@ $(function(){
 
 			// Accordion toggle
 
-			$('.accordion-item h4').on('click', function() {
+			$('.accordion-item h4, .faq-item h4').on('click', function() {
 				$(this).toggleClass('on');
 
-				var parent = $(this).parents('.accordion-item');
-				$('.info', parent).slideToggle();
+				var accordionParent = $(this).parents('.accordion-item'),
+					faqParent = $(this).parents('.faq-item');
+
+				$('.info', accordionParent).slideToggle();
+				$('.answer', faqParent).slideToggle();
 
 			});
 

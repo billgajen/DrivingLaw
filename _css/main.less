@@ -1211,6 +1211,63 @@
 				}
 			}
 		}
+		.faq-list {
+			margin-bottom: 20px;
+
+			h3 {
+				text-align: left;
+				margin-bottom: 20px;
+				font-size: 26px;
+				line-height: 30px;
+			}
+			.faq-item {
+				margin-bottom: 2px;
+
+				h4 {
+					font-size: 16px;
+					line-height: 20px;
+					padding: 12px 25px 12px 50px;
+					background: @brandColor;
+					color: @white;
+					font-family: 'Droid-Bold';
+					cursor: pointer;
+					position: relative;
+
+					&:before {
+						content: "Q:";
+						position: absolute;
+						left: 25px;
+						top: 12px;
+					}
+					&:after {
+						content: "+";
+						position: absolute;
+						right: 25px;
+						top: 12px;
+						font-size: 26px;
+					}
+					&.on {
+						&:after {
+							content: "-";
+						}
+					}
+				}
+				.answer {
+					padding: 30px 40px 30px 60px;
+					position: relative;
+					display: none;
+
+					&:before {
+						content: "A:";
+						position: absolute;
+						left: 30px;
+						top: 32px;
+						color: @brandGreen;
+						font-family: "Droid-Bold";
+					}
+				}
+			}
+		}
 
 	/*	8.2 ----------------------------------------------
 		DEVICE WIDTH FROM 480
