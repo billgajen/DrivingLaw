@@ -1268,6 +1268,48 @@
 				}
 			}
 		}
+		form {
+			label {
+				display: none;
+			}
+			input, select, textarea {
+				border: none;
+				background: #f4f4f4;
+				padding: 15px 20px;
+				color: @footerGrey;
+				font-family: 'Droid';
+				font-size: 18px;
+				width: 100%;
+			}
+			.instruction_paragraph {
+				margin-bottom: 20px;
+			}
+			.submit {
+				text-align: center;
+				margin-top: 20px;
+			}
+			input[type="submit"] {
+				background: @brandColor;
+				color: @white;
+				display: inline;
+				width: auto;
+				padding: 15px 30px;
+			}
+			::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+				color:    #797f82;
+			}
+			:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+				color:    #797f82;
+				opacity:  1;
+			}
+			::-moz-placeholder { /* Mozilla Firefox 19+ */
+				color:    #797f82;
+				opacity:  1;
+			}
+			:-ms-input-placeholder { /* Internet Explorer 10-11 */
+				color:    #797f82;
+			}
+		}
 
 	/*	8.2 ----------------------------------------------
 		DEVICE WIDTH FROM 480
