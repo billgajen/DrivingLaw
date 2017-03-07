@@ -39,7 +39,7 @@
 						<p>Phasellus nec tortor interdum, iaculis magna in, mollis risus. Maecenas ac diam eu lacus finibus venenatis. Pellentesque varius ultrices neque, ac semper leo ornare convallis. In hac habitasse platea dictumst. Integer quis eros arcu. Etiam nibh odio, tristique quis sapien at, ornare iaculis enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse velit nisi, aliquet sed laoreet gravida, tincidunt ac velit. Nulla eget fringilla risus. Fusce semper, metus a lobortis vestibulum, orci ex lobortis leo, sed fringilla eros enim eget nibh. Praesent a neque nec diam porta condimentum. Aliquam erat volutpat. Nulla malesuada augue at velit fringilla placerat.</p>
 					</div>
 					<div class="vx_block">
-						<div id="col_02" class="vx_drag vx_blocks_file_blocks-accordion-content col-sm-12">
+						<div id="col_02" class="vx_drag vx_blocks_file_blocks-accordion-content col-sm-12 accordion-content">
 							<div class="vx_block accordion-item">
 								<div class="vx_text">
 									<h4>Exceptional hardship</h4>

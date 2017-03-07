@@ -29,7 +29,7 @@
 		</section>
 		<section class="row content-area">
 			<div class="row-content">
-				<div id="col_01" class="vx_drag vx_blocks_file_blocks-content-area-items col-sm-12">
+				<div id="col_01" class="vx_drag vx_blocks_file_blocks-content-area-items col-sm-12 accordion-content">
 					<div class="vx_block intro">
 						<p>As a general rule, the Courts will punish high excess speeding offences with instant disqualifications. Also, any driver reaching 12 penalty points within 3 years would face a 6 month disqualification under the "totting up" procedure. The mandatory guideline is that under the "totting up" procedure, a 6 month disqualification should be imposed but when the licence is returned, the slate is wiped clean and the points removed.</p>
 					</div>
