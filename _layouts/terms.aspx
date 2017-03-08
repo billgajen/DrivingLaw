@@ -43,144 +43,19 @@
 					<h2>Index of terms</h2>
 				</div>
 				<div class="index-of-terms">
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Being in charge of a vehicle with excess alcohol</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Careless driving/driving without due care</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Court process and procedure</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Crown Prosecution Service</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Codes used on licence endorsement</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Disqualification from driving</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Drink Driving</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Failing to provide a specimen of breath</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Failing to stop/report an accident</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Fixed penalty notice</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Magistrates’ Court</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Mitigation</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Mobile Phone use</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Notice of Intended Prosecution</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Penalty Points</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Road or other public place</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Seat belts</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Speeding</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Summons</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Time limits the police must comply</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Traffic lights</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Totting up</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6 terms-item">
-						<div class="item-inner">
-							<h3><a href="#">Using a vehicle without insurance</a></h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus sodales facilisis. Mauris commodo risus nec placerat molestie.</p>
-						</div>
-					</div>
+					<Vuture:StoredProcedureRepeaterXMLParser ID="Vx309137189" StoredProcedureName="usp_Vx_FrontEnd_ContentTypeCustomFields_Get" runat="server">
+						<Parameter Name="intSitePageId" Type="Integer" Value='<%$ vx: SITE_PAGE_ID%>' />
+						<Parameter Name="strContentType" Type="NVarChar" Value="Web.{SiteId}-dl_terms" />
+						<parameter name="intMaxRecords" type="Integer" value='120'></parameter>
+						<ItemTemplate>
+							<div class="col-md-4 col-sm-6 terms-item">
+								<div class="item-inner">
+									<h3><a href="<%# Container.GetPageUrl(Container["SiteUrl"], Container["Path"], Container["FileName"], Container["PageType"])%>"><%# Container["Term"] %></a></h3>
+									<p><%# Container["Short description"] != "" ? Container["Short description"] : "" %></p>
+								</div>
+							</div>
+						</ItemTemplate>
+					</Vuture:StoredProcedureRepeaterXMLParser>
 				</div>
 			</div>
 		</section>
