@@ -8,27 +8,14 @@
 		</div>
 		<div class="col-sm-4 col-md-3">
 			<h5>Quick links</h5>
-			<nav>
-				<ul>
-					<li><a href="#">Drink Driving</a></li>
-					<li><a href="#">Speeding</a></li>
-					<li><a href="#">Driving with mobile phone</a></li>
-					<li><a href="#">Careless driving</a></li>
-					<li><a href="#">Driving without a seat belt</a></li>
-					<li><a href="#">Motoring Legal Advice</a></li>
-				</ul>
+			<nav id="men_0808" class="vx_menu vx_include_footer">
+				<!--#include file="../_inc/footer-menu-quick-links.aspx"-->
 			</nav>
 		</div>
 		<div class="col-sm-3 col-md-2">
-			<h5>Quick links</h5>
-			<nav>
-				<ul>
-					<li><a href="#">Contact Us</a></li>
-					<li><a href="#">FAQ's</a></li>
-					<li><a href="#">Terms & Conditions</a></li>
-					<li><a href="#">Disclaimer</a></li>
-					<li><a href="#">Sitemap</a></li>
-				</ul>
+			<h5>Site links</h5>
+			<nav id="men_0809" class="vx_menu vx_include_footer">
+				<!--#include file="../_inc/footer-menu-contact-links.aspx"-->
 			</nav>
 		</div>
 		<div class="col-sm-6 col-md-3">

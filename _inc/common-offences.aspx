@@ -5,16 +5,13 @@
 			<h2>Common offences</h2>
 		</div>
 		<ul class="col-sm-12">
-			<li><a href="#"><span class="icon icon-plus-circled"></span>Drink Driving</a></li>
-			<li><a href="#"><span class="icon icon-plus-circled"></span>Speeding</a></li>
-			<li><a href="#"><span class="icon icon-plus-circled"></span>Driving without a seat belt</a></li>
-			<li><a href="#"><span class="icon icon-plus-circled"></span>Driving without insurance</a></li>
-			<li><a href="#"><span class="icon icon-plus-circled"></span>Careless driving/driving without due care</a></li>
-			<li><a href="#"><span class="icon icon-plus-circled"></span>Failing to provide a specimen of breath</a></li>
-			<li><a href="#"><span class="icon icon-plus-circled"></span>Failing to stop/report an accident</a></li>
-			<li><a href="#"><span class="icon icon-plus-circled"></span>Mobile phone use</a></li>
-			<li><a href="#"><span class="icon icon-plus-circled"></span>Using a vehicle without insurance</a></li>
-			<li><a href="#"><span class="icon icon-plus-circled"></span>Driving while disqualified</a></li>
+			<vuture:storedprocedurerepeaterxmlparser id="Vx235719613" storedprocedurename="usp_Vx_FrontEnd_ContentTypeCustomFields_Get" runat="server">
+				<parameter name="intSitePageId" type="Integer" value='<%$ vx: SITE_PAGE_ID%>'></parameter>
+				<parameter name="strContentType" type="NVarChar" value="Web.{SiteId}-dl_offence"></parameter>
+				<itemtemplate>
+					<li <%# Container["Common offence"] == "on" ? "" : "style=\'display: none\'" %>><a href="<%# Container.GetPageUrl(Container["SiteUrl"], Container["Path"], Container["FileName"], Container["PageType"])%>"><span class="icon icon-plus-circled"></span><%# Container["Common offence link text"] %></a></li>
+				</itemtemplate>
+			</vuture:storedprocedurerepeaterxmlparser>
 
 			<li><a href="/offenses/"><span class="icon icon-plus-circled"></span>View all driving law offences</a></li>
 		</ul>

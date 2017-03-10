@@ -7,10 +7,10 @@
 		<div class="col-md-4">
 			<div class="promo-item">
 				<div id="img_0780" class="vx_image vx_include_promo promo-image">
-					<a href="#"><img src="../_images/thumb-03.jpg" alt="Promo Thumb" /></a>
+					<a href="/forms/email-query.aspx"><img src="../_images/thumb-03.jpg" alt="Promo Thumb" /></a>
 				</div>
 				<div id="txt_07143" class="vx_text vx_include_promo promo-text">
-					<h3><a href="#">Email Query</a></h3>
+					<h3><a href="/forms/email-query.aspx">Email Query</a></h3>
 					<p>Expert legal advice by email for only £20</p>
 				</div>
 			</div>
@@ -18,10 +18,10 @@
 		<div class="col-md-4">
 			<div class="promo-item">
 				<div id="img_0781" class="vx_image vx_include_promo promo-image">
-					<a href="#"><img src="../_images/thumb-04.jpg" alt="Promo Thumb" /></a>
+					<a href="/forms/telephone-advice.aspx"><img src="../_images/thumb-04.jpg" alt="Promo Thumb" /></a>
 				</div>
 				<div id="txt_07144" class="vx_text vx_include_promo promo-text">
-					<h3><a href="#">Telephone Advice</a></h3>
+					<h3><a href="/forms/telephone-advice.aspx">Telephone Advice</a></h3>
 					<p>30mins Telephone Advice for just £49</p>
 				</div>
 			</div>
