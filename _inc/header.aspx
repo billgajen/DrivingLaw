@@ -1,7 +1,7 @@
 <header class="row">
 	<div class="row-content top-header">
 		<div class="col-sm-6 quick-consulation">
-			<p><a href=""><span class="icon icon-mail"></span>Expert legal advice by email</a></p>
+			<p><a href="/forms/quick-enquiry.aspx"><span class="icon icon-mail"></span>Expert legal advice by email</a></p>
 		</div>
 		<div class="col-sm-6 search-social">
 			<div class="site-search">
@@ -34,9 +34,7 @@
 			</div>
 		</div>
 		<div class="col-sm-12 main-nav">
-			<nav id="men_01011" class="vx_menu vx_include_header">
-				<!--#include file="../_inc/menu.aspx"-->
-			</nav>
+			<nav id="men_01011" class="vx_menu vx_include_header"><!--#include file="../_inc/menu-4393.aspx"--></nav>
 		</div>
 		<ul class="mobile-menu-icon">
 			<li></li>

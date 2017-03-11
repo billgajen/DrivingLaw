@@ -517,15 +517,16 @@
 			border-bottom: 1px solid #efefef;
 			position: relative;
 
-			.st3 {
-				fill: @black;
-			}
+			.st0{fill:#BE1622;}
+			.st1{fill:#020203;}
+			.st2{fill:#FFFFFF;}
+			.st3{fill:#BE1622;stroke:#FFFFFF;stroke-miterlimit:10;}
 			a {
 				display: inline-block;
 			}
 			#logo-fill {
-				width: 200px;
-				height: 14px;
+				width: 220px;
+				height: 60px;
 			}
 			.click-to-mail {
 				position: absolute;
@@ -719,9 +720,10 @@
 				text-align: left;
 				border: none;
 
-				.st3 {
-					fill: @white;
-				}
+				.st0{fill:#BE1622;}
+				.st1{fill:@white;}
+				.st2{fill:#020203;}
+				.st3{fill:#BE1622;stroke:#020203;stroke-miterlimit:10;}
 				a {
 					margin-bottom: 20px;
 				}
@@ -1493,6 +1495,8 @@
 		left: auto;
 		transform: none;
 	}
-	.x-border-box .accordion-content .accordion-item .info {
-		display: block;
+	.x-border-box {
+		.accordion-content .accordion-item .info, .faq-list .faq-item .answer {
+			display: block;
+		}
 	}
