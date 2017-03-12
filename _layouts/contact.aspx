@@ -29,7 +29,7 @@
         </section>
         <section class="row content-area">
             <div class="row-content">
-                <div id="frm_01" class="vx_form bs-component">
+                <div id="frm_01" class="vx_form bs-component col-sm-12">
                     <form action="/API/Form/Process" method="post" accept-charset="utf-8" data-prefill="disconnect" autocomplete="off">
                         <p class="instruction_paragraph"><span>We value your feedback. If you have a question or need help, send us a message and we'll get back to you shortly.</span></p>
                         <p class="single_line_text">

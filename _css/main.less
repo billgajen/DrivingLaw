@@ -513,7 +513,7 @@
 		}
 		.logo {
 			text-align: center;
-			padding: 40px 0;
+			padding: 25px 0;
 			border-bottom: 1px solid #efefef;
 			position: relative;
 
@@ -531,7 +531,11 @@
 			.click-to-mail {
 				position: absolute;
 				right: 40px;
-				top: 36px;
+				top: 46px;
+
+				p {
+					padding-bottom: 0;
+				}
 
 				a {
 					color: @brandColor;
@@ -1364,6 +1368,43 @@
 					>a {
 						color: @brandColor;	
 					}
+				}
+			}
+		}
+		.search-result-list {
+			margin-bottom: 80px;
+
+			.bar {
+				text-align: center;
+
+				.count {
+					margin-bottom: 20px;
+
+				}
+			}
+			.pagination {
+				margin-bottom: 40px;
+
+				.pages {
+					display: none;
+				}
+				a, span.active {
+					font-size: 20px;
+					line-height: 22px;
+					padding: 5px 15px;
+				}
+				a {
+					color: @brandColor;
+				}
+			}
+			.result {
+				padding: 35px 0 25px 0;
+				border-bottom: 1px solid @brandGreen;
+				p {
+					padding-bottom: 0;
+				}
+				.pageLink {
+					margin-bottom: 10px;
 				}
 			}
 		}

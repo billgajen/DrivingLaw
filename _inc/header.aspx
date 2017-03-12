@@ -5,10 +5,10 @@
 		</div>
 		<div class="col-sm-6 search-social">
 			<div class="site-search">
-				<form method="get" action="/search/searchResult.aspx" accept-charset="utf-8">
+				<form method="get" action="/search/search-results.aspx" accept-charset="utf-8">
 					<fieldset>
 						<div class="form-group">
-							<input class="form-control default-value" placeholder="Search..." type="text" name="searchValue" value='' maxlength="100" />
+							<input class="form-control default-value" placeholder="Search..." type="text" name="searchValue" value='<%=Request.QueryString["searchValue"]%>' maxlength="100" />
 						</div>
 						<div class="form-group">
 							<button class="icon icon-search" type="submit"></button>

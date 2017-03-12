@@ -32,13 +32,13 @@
         </section>
         <section class="row content-area">
             <div class="row-content">
-                <div class="vx_block" id="blk_01">
+                <div class="vx_block col-sm-12" id="blk_01">
                     <div class="vx_text" id="txt_02">
                         <p>Please take a few seconds to complete as many fields as you can as it will make the response the Driving Law give you all the more comprehensive for you.</p>
                         <p>Once you have submitted your request you will be taken to a payment page. Please submit payment in order to get a reply from a legal expert regarding your question.</p>
                     </div>
                 </div>
-                <div id="frm_01" class="vx_form bs-component">
+                <div id="frm_01" class="vx_form bs-component col-sm-12">
                     <form action="https://sites-pmc.vuturevx.com/API/Form/Process" method="post" accept-charset="utf-8">
                         <p class="drop_down">
                             <label for="vx_form_element_1">How can we help?</label>
