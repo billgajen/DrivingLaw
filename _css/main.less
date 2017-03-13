@@ -1137,6 +1137,7 @@
 				color: @black;
 				overflow: hidden;
 				padding-bottom: 15px;
+				display: none;
 			}
 			.table-body {
 				.penalty-item {
@@ -1155,21 +1156,103 @@
 				}
 			}
 			.offence {
-				text-align: left;
+				text-align: center;
+				margin-bottom: 10px;
+
+				&:before {
+					content: "Offence:";
+					font-family: 'Droid-Bold';
+				}
+				&:after {
+					content: "_";
+				}
 			}
 			.imprisonment {
 				text-align: center;
+				margin-bottom: 10px;
+
+				&:before {
+					content: "Imprisonment:";
+					font-family: 'Droid-Bold';
+				}
+				&:after {
+					content: "_";
+				}
 			}
 			.fine {
 				text-align: center;
 				font-family: 'Droid-Bold';
 				color: @brandColor;
+				margin-bottom: 10px;
+
+				&:before {
+					content: "Fine:";
+					font-family: 'Droid-Bold';
+				}
+				&:after {
+					content: "_";
+				}
 			}
 			.disqualification {
 				text-align: center;
+				margin-bottom: 10px;
+
+				&:before {
+					content: "Disqualification:";
+					font-family: 'Droid-Bold';
+				}
+				&:after {
+					content: "_";
+				}
 			}
 			.penalty-points {
 				text-align: center;
+				margin-bottom: 10px;
+
+				&:before {
+					content: "Penalty Points:";
+					font-family: 'Droid-Bold';
+				}
+			}
+		}
+		.penalty-table.seat-belt {
+			.offence {
+				&:before {
+					content: "Person:";
+				}
+				&:after {
+					content: "_";
+				}
+			}
+			.imprisonment {
+				&:before {
+					content: "Front seat:";
+					font-family: 'Droid-Bold';
+				}
+				&:after {
+					content: "_";
+				}
+			}
+			.fine {
+				&:before {
+					content: "Fine:";
+				}
+				&:after {
+					content: "_";
+				}
+			}
+			.disqualification {
+				&:before {
+					content: "Rear seat:";
+				}
+				&:after {
+					content: "_";
+				}
+			}
+			.penalty-points {
+				&:before {
+					content: "Responsibility of:";
+				}
 			}
 		}
 		.service-list {
@@ -1588,6 +1671,69 @@
 			}
 			.mobile-menu-icon {
 				display: none;
+			}
+			.penalty-table.seat-belt {
+				.offence {
+					&:before, &:after {
+						display: none;
+					}
+				}
+				.imprisonment {
+					&:before, &:after {
+						display: none;
+					}
+				}
+				.fine {
+					&:before, &:after {
+						display: none;
+					}
+				}
+				.disqualification {
+					&:before, &:after {
+						display: none;
+					}
+				}
+				.penalty-points {
+					&:before, &:after {
+						display: none;
+					}
+				}
+			}
+			.penalty-table {
+				.table-head {
+						display: block;
+				}
+				.offence {
+					margin-bottom: 0;
+					text-align: left;
+					&:before, &:after {
+						display: none;
+					}
+				}
+				.imprisonment {
+					margin-bottom: 0;
+					&:before, &:after {
+						display: none;
+					}
+				}
+				.fine {
+					margin-bottom: 0;
+					&:before, &:after {
+						display: none;
+					}
+				}
+				.disqualification {
+					margin-bottom: 0;
+					&:before, &:after {
+						display: none;
+					}
+				}
+				.penalty-points {
+					margin-bottom: 0;
+					&:before, &:after {
+						display: none;
+					}
+				}
 			}
 		}
 
