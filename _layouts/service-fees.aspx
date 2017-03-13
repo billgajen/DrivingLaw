@@ -34,7 +34,7 @@
 		<section class="row content-area">
 			<div class="row-content">
 				<div class="service-list col-sm-12">
-					<div class="col-sm-4">
+					<div class="col-lg-4 col-sm-6">
 						<div class="service-item">
 							<div class="vx_text" id="txt_11">
 								<h2>Email reply service</h2>
@@ -50,7 +50,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-lg-4 col-sm-6">
 						<div class="service-item">
 							<div class="vx_text" id="txt_14">
 								<h2>Telephone advice (30 mins)</h2>
@@ -66,7 +66,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-lg-4 col-sm-6">
 						<div class="service-item">
 							<div class="vx_text" id="txt_18">
 								<h2>Document check</h2>
@@ -82,7 +82,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-lg-4 col-sm-6">
 						<div class="service-item">
 							<div class="vx_text" id="txt_22">
 								<h2>Guilty Plea by Post</h2>
@@ -98,7 +98,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-lg-4 col-sm-6">
 						<div class="service-item">
 							<div class="vx_text" id="txt_26">
 								<h2>Case preparation &amp; representation in court</h2>
