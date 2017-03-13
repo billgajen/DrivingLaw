@@ -33,13 +33,15 @@
 				<p><a href="mailto:info@driving-law.co.uk">info@driving-law.co.uk</a></p>
 			</div>
 		</div>
+		<div class="mobile-menu-icon">
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
 		<div class="col-sm-12 main-nav">
 			<nav id="men_01011" class="vx_menu vx_include_header"><!--#include file="../_inc/menu-4393.aspx"--></nav>
 		</div>
-		<ul class="mobile-menu-icon">
-			<li></li>
-			<li></li>
-			<li></li>
-		</ul>
 	</div>
 </header>
